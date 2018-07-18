@@ -1,7 +1,8 @@
-import React, { Component } from "react";
-import Book from "./Book";
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import Book from './Book';
 
-class ListBooks extends Component {
+class BookList extends Component {
   state = {};
 
   render() {
@@ -55,4 +56,4 @@ class ListBooks extends Component {
   }
 }
 
-export default ListBooks;
+export default BookList;
