@@ -15,9 +15,9 @@ Application is created to help you to managing your personal library and stack o
 
  - You can search for new books in the `/search` page or click `+` button on the right bottom corner.
 
- - Use menu below book cover to select shelf Reading, Want to, Read to put the book on right one
+ - Use menu below book cover to select shelf `Read`, `Want to Read` or `Currently Reading` to put the book on right 'Shelf'.
 
- - None removes the book from each shelf in main page
+ - `None` removes the book from each shelf in the main page
 
 ### Starting project
 
