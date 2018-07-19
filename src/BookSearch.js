@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import * as BooksAPI from './BooksAPI'
-import Book from "./Book";
+import Book from './Book';
 
 class BookSearch extends Component {
   state = {
@@ -10,7 +10,7 @@ class BookSearch extends Component {
   };
 
   queryBooks = query => {
-    let queriedBooks = [];
+    // let queriedBooks = [];
 
     if (query) {
       let queryResults = [];
