@@ -2,23 +2,22 @@
 
 ### Tracking Book App
 Student Project from Google Front-End Development Nanodegree Program at Udacity made with React. The goal is to add interactivity to the app by refactoring the static code in the given starting template.
- use [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
 
 ## Project Overview
-
+Plese check out the [live preview](https://Dia7/reactnd-project-myreads/)
 In this application, the main page displays a list of "shelves" (i.e. categories), each of which contains a number of books. The three shelves are:
 
    - Currently Reading
    - Want to Read
    - Read
    
-Application is created to help you to managing your personal library and stack of books. There are given some default books but:
+Application is created to help you to managing your personal library and stack of books. There are given some default books.
 
-You can search for new books in the `/search` page or click `+` button on the right bottom corner.
+ - You can search for new books in the `/search` page or click `+` button on the right bottom corner.
 
-Use menu below book cover to select shelf Reading, Want to, Read to put the book on right one
+ - Use menu below book cover to select shelf Reading, Want to, Read to put the book on right one
 
-None removes the book from each shelf in main page
+ - None removes the book from each shelf in main page
 
 ### Starting project
 
