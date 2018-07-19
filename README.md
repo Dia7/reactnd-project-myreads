@@ -4,7 +4,8 @@
 Student Project from Google Front-End Development Nanodegree Program at Udacity made with React. The goal is to add interactivity to the app by refactoring the static code in the given starting template.
 
 ## Project Overview
-Plese check out the [live preview](https://Dia7/reactnd-project-myreads/)
+Plese check out the [live preview](https://dia7.github.io/reactnd-project-myreads/)
+
 In this application, the main page displays a list of "shelves" (i.e. categories), each of which contains a number of books. The three shelves are:
 
    - Currently Reading
