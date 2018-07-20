@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import PlaceHolder from './icons/book-placeholder.jpg';
 
 class Book extends Component {
+
   render() {
     const { bookFilters } = this.props;
 
@@ -15,7 +17,8 @@ class Book extends Component {
                     <div
                       className="book-cover"
                       style={{
-                        backgroundImage: `url(${bookFilter.imageLinks.thumbnail})`
+                        // Fix the image
+                        backgroundImage: `url(${bookFilter.imageLinks ? bookFilter.imageLinks.thumbnail : PlaceHolder})`
                       }}
                     />
                     <div className="book-shelf-changer">
